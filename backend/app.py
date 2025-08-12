@@ -23,7 +23,7 @@ if not STABILITY_API_KEY or not GEMINI_API_KEY:
 
 # Configure Gemini AI
 genai.configure(api_key=GEMINI_API_KEY)
-gemini_model = genai.GenerativeModel('gemini-1.5-flash')
+gemini_model = genai.GenerativeModel('gemini-2.5-pro')
 
 # Configure Stability AI
 STABILITY_API_HOST = "https://api.stability.ai"
