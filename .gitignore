@@ -1,0 +1,17 @@
+# Python / Flask
+venv/
+__pycache__/
+*.pyc
+
+# Node / React / Vite
+node_modules/
+dist/
+.npm
+
+# Environment files
+.env
+.env.*
+
+# IDE / OS specific
+.DS_Store
+.vscode/
